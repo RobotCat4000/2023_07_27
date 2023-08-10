@@ -1,5 +1,6 @@
 import random
 
+#自訂的function
 def The_way():
     min = 1
     max = 100
@@ -28,7 +29,7 @@ def The_way():
             print("超出範圍")
 
 while True:
-    The_way()
+    The_way()#呼叫function
     play_again = input("other way?(y/n):")
     if play_again == 'n':
         break
