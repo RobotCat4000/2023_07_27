@@ -1,5 +1,6 @@
 import random
-while True:
+
+def The_way():
     min = 1
     max = 100
     target = random.randint(min,max)
@@ -25,6 +26,9 @@ while True:
             print(f"已經猜了{count}次")
         else:
             print("超出範圍")
+
+while True:
+    The_way()
     play_again = input("other way?(y/n):")
     if play_again == 'n':
         break
